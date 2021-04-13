@@ -1,6 +1,6 @@
 from git import Repo
 
-PATH_OF_GIT_REPO = r'path\to\your\project\folder\.git'  # make sure .git folder is properly configured
+PATH_OF_GIT_REPO = r'C:\Users\mohamed yousuf\Desktop\gitpractice\gitpractice\.git'  # make sure .git folder is properly configured
 COMMIT_MESSAGE = 'comment from python script'
 
 def git_push():
