@@ -7,7 +7,7 @@ COMMIT_MESSAGE = 'newyork nagaram pushed successfully'
 def git_push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
-        repo.git.add(newyork.txt)
+        repo.git.add(update=True)
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()
