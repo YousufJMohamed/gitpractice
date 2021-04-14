@@ -2,7 +2,7 @@ from git import Repo
 
 PATH_OF_GIT_REPO = r'C:\Users\mohamed yousuf\Desktop\gitpractice\gitpractice'
  # make sure .git folder is properly configured
-COMMIT_MESSAGE = 'successfully comitted'
+COMMIT_MESSAGE = 'comitted'
 
 def git_push():
     try:
